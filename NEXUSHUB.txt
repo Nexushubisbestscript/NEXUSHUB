@@ -2666,7 +2666,7 @@ local Section = W:AddSection({
 
 W:AddLabel("[+] NEXUS HUB new script!")
 W:AddLabel("[+] script is vip!")
-W:AddLabel("[+] I like this script")
+W:AddLabel("[+] join my discord:https://discord.com/invite/9As6EBbN")
 W:AddLabel("[+] cày thuê ib nexushubisbest!")
 
 local Section = W:AddSection({
