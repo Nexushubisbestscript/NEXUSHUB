@@ -62,7 +62,7 @@ Tab:AddButton({
 Tab:AddButton({
             Name = "Copy Job Id",
             Callback = function()
-                setclipboard(tostring(game.JobId))
+                setclipboard("https://dilink.net/notes/2Reg")
             end
   	end    
 })
