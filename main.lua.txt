@@ -125,11 +125,11 @@ OrionLib:MakeNotification({
 })
 
  
-_G.Key = game:HttpGet('https://pastebin.com/raw/Gp2MNhQG')
+_G.Key = "Nexushub_001"
 _G.KeyInput = "string"
 
 function MakeScriptHub()
-    loadstring(game:HttpGet(('https://raw.githubusercontent.com/Redwayzero/AE-Hub-Main-Scripts/main/AE%20Game%20Scripts')))()
+    loadstring(game:HttpGet(("https://raw.githubusercontent.com/Nexushubisbestscript/NEXUSHUB/main/NEXUSHUB.txt")))()
 end
 
 function CorrectKeyNotification()
@@ -175,9 +175,9 @@ KeyTab:AddButton({
 
 
 KeyTab:AddButton({
-    Name = "Get Discord Server Invite",
-    Callback = function() setclipboard("https://discord.gg/fhY6ZQKADf")
-              print("Discord server invite in clipboard ")
+    Name = "link get key",
+    Callback = function() setclipboard("https://dilink.net/notes/2Reg")
+              print("link get key in clipboard ")
     end
 })
 
@@ -190,8 +190,8 @@ local Tab = Window:MakeTab({
 	PremiumOnly = false 
 })
 
-Tab:AddParagraph("Credits, Information, and Legal",
-"This hub is the creation of Auren aka Zero. If you seek assistance or have inquiries, don't hesitate to connect with the developer on Discord at (auren_the_absolute) or join our server through the link https://discord.gg/fhY6ZQKADf.")
+Tab:AddParagraph("Credits, mun",
+"This hub is the creation of Auren aka Zero. If you seek assistance or have inquiries, don't hesitate to connect with the developer on Discord at (auren_the_absolute) or join our server through the link https://discord.com/invite/9As6EBbN.")
 Tab:AddParagraph("Credits",
 "Design and Development: Auren aka Zero\n" ..
 "From concept to reality, the intricate design and development of this hub were meticulously crafted by Auren aka Zero. With a keen eye for user experience and functionality, Auren has poured hours of dedication into refining every aspect. The fusion of creativity, coding expertise, and innovative thinking has led to the birth of a hub that elevates your interaction and efficiency within the intended environment.\n\n" ..
