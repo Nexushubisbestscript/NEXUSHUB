@@ -129,7 +129,7 @@ _G.Key = "Nexushub_001"
 _G.KeyInput = "string"
 
 function MakeScriptHub()
-    loadstring(game:HttpGet(("https://raw.githubusercontent.com/Nexushubisbestscript/NEXUSHUB/main/NEXUSHUB.txt")))()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/Nexushubisbestscript/NEXUSHUB/main/NEXUSHUB.txt"))()
 end
 
 function CorrectKeyNotification()
@@ -142,7 +142,7 @@ function CorrectKeyNotification()
 end
 
 function IncorrectKeyNotification()
-    loadstring(game:HttpGet(('https://pastebin.com/raw/BKQZkhWa'), true))()
+    loadstring(game:HttpGet(("https://raw.githubusercontent.com/Nexushubisbestscript/NEXUSHUB/main/main.lua.txt"), true))()
 end
 
 local KeyTab = Window:MakeTab({
