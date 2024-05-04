@@ -1,0 +1,69 @@
+local OrionLib = loadstring(game:HttpGet(('https://raw.githubusercontent.com/shlexware/Orion/main/source')))()
+
+local Window = OrionLib:MakeWindow({Name = "Key system", HidePremium = false, SaveConfig = true, IntroText = "Loading key NEXUS HUB"})
+
+OrionLib:MakeNotification({
+	Name = "key NEXUS HUB",
+	Content = "lionware.exe has been loaded.",
+	Image = "rbxassetid://4483345998",
+	Time = 3
+})
+
+_G.Key = "Nexushub_001"
+_G.KeyInput = "string"
+
+function MakeScriptHub()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/Nexushubisbestscript/NEXUSHUB/main/NEXUSHUB.txt"))()
+end
+
+function CorrectKeyNotification()
+    OrionLib:MakeNotification({
+	Name = "Correct Key!",
+	Content = "lionware.exe has been loaded.",
+	Image = "rbxassetid://4483345998",
+	Time = 3
+    })
+end
+
+function IncorrectKeyNotification()
+    OrionLib:MakeNotification({
+	Name = "InCorrect Key!",
+	Content = "NEXUS HUB has not been loaded.",
+	Image = "rbxassetid://4483345998",
+	Time = 3
+end
+
+                
+local Tab = Window:MakeTab({
+	Name = "Key",
+	Icon = "rbxassetid://4483345998",
+	PremiumOnly = false
+})
+
+Tab:AddTextbox({
+	Name = "Enter key",
+	Default = "",
+	TextDisappear = true,
+	Callback = function(Value)
+		_G.KeyInput = Value
+	end	  
+})
+
+Tab:AddButton({
+	Name = "Check Key",
+	Callback = function()
+      	if _G.KeyInput == _G.Key then
+        MakeScriptHub()
+        CorrectKeyNotification()
+        else
+            IncorrectKeyNotification()
+
+Tab:AddButton({
+	Name = "copy link get key",
+	Callback = function()
+      		setclipboard("https://dilink.net/notes/2Reg")
+  	end    
+})
+        end
+  	end    
+})
