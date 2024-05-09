@@ -15,9 +15,13 @@ Tab:AddToggle({
 	end    
 })
 
+_G.autoclick = true
+while _G.autolick == true do
+local args = {
+    [1] = "swingKatana"
+}
 
-
-
+game:GetService("Players").LocalPlayer.ninjaEvent:FireServer(unpack(args))
 
 
 
