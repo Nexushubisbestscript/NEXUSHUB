@@ -11,11 +11,12 @@ Tab:AddToggle({
 	Name = "auto click",
 	Default = false,
 	Callback = function(Value)
-		print(Value)
+		_G.autoclick = Value
 	end    
 })
 
 _G.autoclick = true
+function autoclick()
 while _G.autolick == true do
 local args = {
     [1] = "swingKatana"
