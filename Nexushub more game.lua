@@ -16,6 +16,7 @@ Tab:AddToggle({
 })
 
 _G.autoclick = true
+
 function autoclick()
 while _G.autolick == true do
 local args = {
@@ -23,7 +24,5 @@ local args = {
 }
 
 game:GetService("Players").LocalPlayer.ninjaEvent:FireServer(unpack(args))
-
-
 
 OrionLib:Init()
